@@ -2,6 +2,8 @@
 
 This repository hosts a [DistilBERT sentiment analysis](https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english) model wrapped with [Cog](https://github.com/replicate/cog) for easy deployment on [Replicate](https://replicate.com/). The model handles **batched** input texts in a single API call to improve performance and reduce costs.
 
+Replicate model: [halstonblim/distilbert-base-uncased-finetuned-sst-2-english](https://replicate.com/halstonblim/distilbert-base-uncased-finetuned-sst-2-english)
+
 ---
 
 ## Contents

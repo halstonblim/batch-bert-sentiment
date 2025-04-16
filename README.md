@@ -1,6 +1,6 @@
 # Batch BERT Sentiment Analysis
 
-This repository hosts a [DistilBERT sentiment analysis](https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english) model wrapped with [Cog](https://github.com/replicate/cog) for easy deployment on [Replicate](https://replicate.com/). The model handles **batched** input texts in a single API call to improve performance and reduce costs.
+This repository hosts a [DistilBERT sentiment analysis](https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english) model wrapped with [Cog](https://github.com/replicate/cog) for easy deployment on [Replicate](https://replicate.com/). The model handles **batched** input texts in a single API call to improve performance and reduce costs. This is especially important for using Public cold start models, as passing all inputs in a single API means we only need to boot up once. 
 
 Replicate model: [halstonblim/distilbert-base-uncased-finetuned-sst-2-english](https://replicate.com/halstonblim/distilbert-base-uncased-finetuned-sst-2-english)
 

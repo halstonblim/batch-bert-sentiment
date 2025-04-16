@@ -1,0 +1,11 @@
+name: halstonblim/bert-sentiment
+version: 1
+build:
+  gpu: trued
+  python_version: "3.12"
+  system_packages:
+    - git
+  python_packages:
+    - transformers==4.51.3
+    - torch==2.6
+predict: predict.py:Predictor

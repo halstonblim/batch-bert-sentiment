@@ -1,0 +1,9 @@
+build:
+  gpu: true
+  python_version: "3.12"
+  system_packages:
+    - git
+  python_packages:
+    - transformers
+    - torch
+predict: predict.py:Predictor
